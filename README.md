@@ -1,8 +1,7 @@
 
 # Zoe Depth Estimation
 
-> This project is based on [this repository](https://github.com/cobanov/uctan-uca-python-egitimi-youtube) by [Mert Çobanov](https://github.com/cobanov) and was implemented for educational purposes.
-
+This project is based on [this repository](https://github.com/cobanov/uctan-uca-python-egitimi-youtube) by [Mert Çobanov](https://github.com/cobanov) and was implemented for educational purposes.
 
 ## Usage/Examples
 
