@@ -1,7 +1,7 @@
 
 # Zoe Depth Estimation
 
-A brief description of what this project does and who it's for
+> This project is based on [this repository](https://github.com/cobanov/uctan-uca-python-egitimi-youtube) by [Mert Çobanov](https://github.com/cobanov) and was implemented for educational purposes.
 
 
 ## Usage/Examples
@@ -22,7 +22,7 @@ options:
 ### API Usage
 
 ```
-http://127.0.0.1:8000/predict
+http://127.0.0.1:8041/predict
 ```
 
 ## Installation
@@ -37,9 +37,7 @@ pip install -r requirements.txt
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`API_KEY`
-
-`ANOTHER_API_KEY`
+`IMAGE_API_KEY`
 
 
 ## Deployment
@@ -47,7 +45,8 @@ To run this project, you will need to add the following environment variables to
 To deploy this project run
 
 ```bash
-  npm run deploy
+  docker build -t depth_estimation .
+  docker run -d -p 8041:8041 depth_estimation
 ```
 
 
