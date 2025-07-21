@@ -3,6 +3,8 @@
 
 This project is based on [this repository](https://github.com/cobanov/uctan-uca-python-egitimi-youtube) by [Mert Çobanov](https://github.com/cobanov) and was implemented for educational purposes.
 
+![Depth Estimation Demo](https://i.imgur.com/i9IZmLL.gif)
+
 ## Usage/Examples
 
 ### CLI Usage
