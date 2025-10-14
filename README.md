@@ -26,7 +26,7 @@ Before you begin, ensure you have the following tools installed on your system:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url>
+    git clone github.com/gokaymeydan/depth-estimation
     cd depth-estimation
     ```
 
